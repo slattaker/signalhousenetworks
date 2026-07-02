@@ -6,7 +6,6 @@ import wifiBefore from "./assets/wifi-before.png";
 import wifiAfter from "./assets/wifi-after.png";
 import closetBefore from "./assets/closet-before.png";
 import closetAfter from "./assets/closet-after.png";
-import seanHeadshot from "./assets/sean-headshot.png";
 import websiteOne from "./assets/website-one.png";
 import websiteTwo from "./assets/website-two.png";
 import websiteThree from "./assets/website-three.png";
@@ -944,7 +943,7 @@ transition={{ duration: 0.6, delay: 0.7 }}
       viewport={{ once: true }}
     >
       <div className="mb-5 inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-5 py-2 text-sm font-semibold text-sky-300">
-        Meet The Owner
+        About SignalHouse Networks
       </div>
 
       <h2 className="text-5xl font-black tracking-tight md:text-6xl">
@@ -953,77 +952,65 @@ transition={{ duration: 0.6, delay: 0.7 }}
       </h2>
 
       <p className="mt-6 text-xl leading-relaxed text-gray-300">
-        Hey, I’m — a network and cloud engineer based in the Fort Mill and Charlotte area with a passion for helping people solve frustrating technology problems.
+        SignalHouse Networks helps homeowners and small businesses solve frustrating WiFi and connectivity issues throughout Fort Mill, Rock Hill, Indian Land, and the Charlotte area.
       </p>
 
       <p className="mt-5 text-xl leading-relaxed text-gray-300">
-        I specialize in WiFi optimization, networking, Microsoft 365, cloud infrastructure, and small business technology solutions.
+        Services include WiFi optimization, home networking, smart home connectivity, small business networking, and website design.
       </p>
 
       <p className="mt-5 text-xl leading-relaxed text-gray-400">
-        My goal is simple: make your network faster, cleaner, more reliable, and easier to use.
+        Our goal is simple: make technology easier to use, more reliable, and less frustrating.
       </p>
     </motion.div>
 
-    <motion.div
-      initial={{ opacity: 0, x: 50, scale: 0.96 }}
-      whileInView={{ opacity: 1, x: 0, scale: 1 }}
-      transition={{ duration: 0.7, delay: 0.8 }}
-      viewport={{ once: true }}
-      className="flex justify-center md:justify-end"
-    >
-      <div className="w-full max-w-[430px] rounded-[32px] border border-blue-900/60 bg-[#0b1120] p-8 shadow-2xl shadow-blue-950/30">
 
-        <div className="flex justify-center">
+<motion.div
+  initial={{ opacity: 0, x: 50, scale: 0.96 }}
+  whileInView={{ opacity: 1, x: 0, scale: 1 }}
+  transition={{ duration: 0.7, delay: 0.8 }}
+  viewport={{ once: true }}
+  className="flex justify-center md:justify-end"
+>
+  <div className="w-full max-w-[430px] rounded-[32px] border border-blue-900/60 bg-[#0b1120] p-8 shadow-2xl shadow-blue-950/30">
 
-  <div className="rounded-[36px] bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-700 p-[2px] shadow-[0_0_40px_rgba(59,130,246,0.35)]">
-
-    <div className="rounded-[34px] bg-[#0b1120] p-2">
-
+    <div className="flex justify-center">
       <img
-        src={seanHeadshot}
-        alt="Sean Lattaker - SignalHouse Networks"
-        className="h-[220px] w-[220px] rounded-[28px] object-cover object-top"
+        src={logo}
+        alt="SignalHouse Networks"
+        className="h-40 w-auto"
       />
-
     </div>
 
-  </div>
+    <div className="mt-8 text-center">
+      <h3 className="text-3xl font-black text-white">
+        SignalHouse Networks
+      </h3>
 
-</div>
-        <div className="mt-8 text-center">
-          <div className="mb-4 inline-flex rounded-full border border-blue-400/20 bg-blue-400/10 px-5 py-2 text-xl font-semibold text-blue-300">
-            Sean Lattaker
-          </div>
+      <p className="mx-auto mt-4 max-w-sm text-base leading-relaxed text-slate-300">
+        Local WiFi, networking, and technology support for homes and small businesses.
+      </p>
+    </div>
 
-          <h3 className="text-3xl font-black text-white">
-            Real Networking Help
-          </h3>
-
-          <p className="mx-auto mt-4 max-w-sm text-base leading-relaxed text-slate-300">
-            Local support for WiFi issues, home networks, smart devices, and small business technology.
-          </p>
-        </div>
-
-        <div className="mt-8 grid grid-cols-3 gap-3 text-center">
-          <div className="rounded-2xl border border-blue-900/50 bg-[#050b16] px-2 py-4">
-            <p className="text-xs uppercase tracking-[0.2em] text-slate-500">WiFi</p>
-            <p className="mt-2 text-lg font-bold text-blue-300">Refined</p>
-          </div>
-
-          <div className="rounded-2xl border border-blue-900/50 bg-[#050b16] px-2 py-4">
-            <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Based In</p>
-            <p className="mt-2 text-lg font-bold text-white">Fort Mill</p>
-          </div>
-
-          <div className="rounded-2xl border border-blue-900/50 bg-[#050b16] px-2 py-4">
-            <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Support</p>
-            <p className="mt-2 text-lg font-bold text-green-300">Real Human</p>
-          </div>
-        </div>
-
+    <div className="mt-8 grid grid-cols-3 gap-3 text-center">
+      <div className="rounded-2xl border border-blue-900/50 bg-[#050b16] px-2 py-4">
+        <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Coverage</p>
+        <p className="mt-2 text-lg font-bold text-blue-300">Improved</p>
       </div>
-    </motion.div>
+
+      <div className="rounded-2xl border border-blue-900/50 bg-[#050b16] px-2 py-4">
+        <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Based In</p>
+        <p className="mt-2 text-lg font-bold text-white">Fort Mill</p>
+      </div>
+
+      <div className="rounded-2xl border border-blue-900/50 bg-[#050b16] px-2 py-4">
+        <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Support</p>
+        <p className="mt-2 text-lg font-bold text-green-300">Local</p>
+      </div>
+    </div>
+  </div>
+</motion.div>
+
 
   </div>
 </section>
