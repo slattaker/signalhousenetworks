@@ -953,7 +953,7 @@ transition={{ duration: 0.6, delay: 0.7 }}
       </h2>
 
       <p className="mt-6 text-xl leading-relaxed text-gray-300">
-        Hey, I’m Sean — a network and cloud engineer based in the Fort Mill and Charlotte area with a passion for helping people solve frustrating technology problems.
+        Hey, I’m — a network and cloud engineer based in the Fort Mill and Charlotte area with a passion for helping people solve frustrating technology problems.
       </p>
 
       <p className="mt-5 text-xl leading-relaxed text-gray-300">
